@@ -1,0 +1,43 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif
+}
+p {
+    font-family: 'Jura', sans-serif;
+}
+  
+  /* Navigation bar */
+  
+  /* General */
+
+  
+  /* Navigation links */
+
+  /* Jumbotron  */
+.jumbotron {
+    background-image: url(../images/desert-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  /* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+}
+.planCard {
+    background-image: url(../images/plan-card.png);
+}
+.stayCard {
+    background-image: url(../images/pool-card.png);
+}
+.flightCard {
+    background-image: url(../images/plane-card.png);
+}
